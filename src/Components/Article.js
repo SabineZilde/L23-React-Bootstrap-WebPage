@@ -9,10 +9,26 @@ import fox6 from '../Assets/Img/Fox6.jpg';
 function Article() {
     const [mainImg, setMainImg] = useState(fox1)
 
-    // const images = [fox1, fox2, fox3, fox4, fox5, fox6];
     const changeMaingImg = (e) => {
             setMainImg(e.target.src);
     }
+    
+// An alternative verstion
+// function for 1st opiton
+    // const smallImageClicked = (e) => {
+    //     setMainImage(event.target.src);
+    // }
+
+    // const images = [fox1, fox2, fox3, fox4, fox5, fox6];
+    // const imagesList = images.map((image, index) => {
+    //     <div key={index} className="col px-1">
+// 1st option
+    //         <img src={image} onClick={smallImageClicked}/>
+// 2nd option
+    //         <img src={image} onClick={() => setMainImage(image)}/>
+    //     </div>
+    // }) 
+// Now you can put {imagesList} instead of 6 divs with images
 
     return (
         <div className="row">

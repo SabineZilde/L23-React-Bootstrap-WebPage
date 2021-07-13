@@ -14,6 +14,7 @@ function Header() {
                         <li><NavLink exact to="/" className="nav-link px-2 text-secondary">Home</NavLink></li>
                         <li><NavLink to="/article" className="nav-link px-2 text-white">Article</NavLink></li>
                         <li><NavLink to="/tags" className="nav-link px-2 text-white">Tags</NavLink></li>
+                        <li><NavLink to="/Carouselpage" className="nav-link px-2 text-white">Carousel</NavLink></li>
                     </ul>
 
                     <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">

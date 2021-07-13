@@ -4,6 +4,7 @@ import Home from './Components/Home';
 import Article from './Components/Article';
 import Tags from './Components/Tags';
 import Footer from './Components/Footer';
+import Carouselpage from './Components/Carouselpage';
 
 function App() {
     return (
@@ -20,6 +21,9 @@ function App() {
                         </Route>
                         <Route path="/tags">
                             <Tags />
+                        </Route>
+                        <Route path="/carouselpage">
+                            <Carouselpage />
                         </Route>
                     </Switch>
                     <Footer />
