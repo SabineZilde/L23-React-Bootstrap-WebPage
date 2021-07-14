@@ -16,8 +16,8 @@ function Tags() {
     const settingInput = (e) => {
         inputArray.push(e.target.value);
         const splittedInputArray = e.target.value.split(' ').join(', ');
-        // alternative
-        // const splittedInputArray = e.target.value.replace(/ /g, ', ;))
+        // alternative version
+        // const splittedInputArray = e.target.value.replace(/ /g, ', '));
         setOutputName(splittedInputArray);
         return setInputName(e.target.value);
     }
